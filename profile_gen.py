@@ -22,7 +22,7 @@ class Profile:
         return f'Name/Nickname: {self.name}\nState of Origin: {self.state}\nTribe: {self.tribe}\nGender: {self.gender}'
     
     # function genprofile 
-    # generates unique/random profile from give input parameters
+    # generates unique/random profile from given input parameters
     def genprofile(self) -> (str, str, str):
         ulength = len(self.name) # obtain length of name/nickname 
         rsIndex = len(self.states) # use ulength to obtain offset for states to randomly select
